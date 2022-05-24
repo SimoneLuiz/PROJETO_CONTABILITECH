@@ -1,4 +1,5 @@
 import { Usuario } from "../models/usuario";
+import { ListaUsuario } from "../models/ListaUsuario";
 
 export class UsuarioController {
 
@@ -8,17 +9,20 @@ export class UsuarioController {
     _inputSenha;
 
     constructor() {
-    this._inputNome = document.querySelector('#nome')
-    this._inputSobrenome = document.querySelector('#sobrenome')
-    this._inputEmail = document.querySelector('#email')
-    this._inputSenha = document.querySelector('#senha')   
+    this._inputNome = document.querySelector('#nome');
+    this._inputSobrenome = document.querySelector('#sobrenome');
+    this._inputEmail = document.querySelector('#email');
+    this._inputSenha = document.querySelector('#senha');
+
+    this._listaUsuario = new ListaUsuario();
     }
 
     adiciona(event) {
 
         event.preventDefault();
 
-        this._criaUsuario();
+        this._listaUsuario.adiciona(this._criaUsuario());
+        console.log(this._listaUsuario.usuarios)
     }
 
     _criaUsuario() {
