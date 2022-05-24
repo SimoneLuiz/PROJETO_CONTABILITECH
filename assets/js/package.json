@@ -1,0 +1,12 @@
+{
+  "name": "projeto-resilia",
+  "version": "1.0.0",
+  "description": "Projeto final do módulo 2 da Resília",
+  "main": "./script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "João Souza",
+  "license": "ISC",
+  "tyoe": "module"
+}

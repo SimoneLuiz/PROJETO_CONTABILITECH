@@ -1,0 +1,7 @@
+body {
+    background: #ffe259 linear-gradient(to right, #ffa751, #ffe259);
+}
+.bg {
+    background-image: url(../img/man-tech.jpg!d);
+    background-position: center center;
+}  
