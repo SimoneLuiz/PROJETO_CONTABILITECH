@@ -9,7 +9,7 @@ btnCep.addEventListener('click', (e)=>{
     e.preventDefault(); 
     validaCep();   
 })
-function validaCep(){//valida o cpe, verificando se foi digitado 8 digitos e faz a requisição
+function validaCep(){//valida o cep, verificando se foi digitado 8 digitos e faz a requisição
     try{
         const cepProcurado = document.querySelector('#cep').value;
         if (cepProcurado.length == 8   && cepProcurado != '') {
