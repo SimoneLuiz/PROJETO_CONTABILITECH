@@ -91,27 +91,29 @@
           </div>
         </nav>
     </header>
-    <div class="container " >
-        <div class="row g-1 row d-flex justify-content-center"   >
-            <div class="col-6 ">
-                <h4 class="p-2">Contato</h4>
-                <div class="p-3 border bg-dark text-light " >
-                    <div class="mb-3 " >
-                        <label for="contato" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="contato" placeholder="name@example.com" >
-                    </div>
-                    <div class="mb-3">
-                        <label for="text-area" class="form-label">Mensagem</label>
-                        <textarea   class="form-control" id="text-area" rows="3" ></textarea>
-                    </div>
-                    <div class="col-6 " >
-                        <button class="btn btn-primary text-center">Enviar</button>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
-    </div>
+    <form >
+      <div class="container " >
+          <div class="row g-1 row d-flex justify-content-center"   >
+              <div class="col-6 ">
+                  <h4 class="p-2">Contato</h4>
+                  <div class="p-3 border bg-dark text-light " >
+                      <div class="mb-3 " >
+                          <label for="contato" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="contato" placeholder="name@example.com" required="required">
+                      </div>
+                      <div class="mb-3">
+                          <label for="text-area" class="form-label">Mensagem</label>
+                          <textarea   class="form-control" id="text-area" rows="3" required="required"></textarea>
+                      </div>
+                      <div class="col-6 " >
+                          <button class="btn btn-primary text-center">Enviar</button>
+                      </div>
+                  </div>
+              </div>
+              </div>
+          </div>
+      </div>
+    </form>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
       <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </body>
