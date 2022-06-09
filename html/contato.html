@@ -33,9 +33,6 @@
             <li class="nav-item">
               <a class="nav-link link active" aria-current="contato" href="./contato.html">Contato</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link link active" aria-current="trabalhe conosco" href="./work.html">Trabalhe Conosco</a>
-            </li>
           </ul>
           <form class="d-flex" role="search">
             <div class="d-inline-flex align-items-center mx-2 dropdown-center">
@@ -98,18 +95,18 @@
     </nav>
   </header>
 
-    <div class="container " >
+    <form class="container " >
         <div class="row g-1 row d-flex justify-content-center"   >
             <div class="col-6 ">
                 <h4 class="p-2">Contato</h4>
                 <div class="p-3 border bg-dark text-light " >
                     <div class="mb-3 " >
                         <label for="contato" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="contato" placeholder="name@example.com" >
+                        <input type="email" class="form-control" id="contato" placeholder="name@example.com" required="required" >
                     </div>
                     <div class="mb-3">
                         <label for="text-area" class="form-label">Mensagem</label>
-                        <textarea   class="form-control" id="text-area" rows="3" ></textarea>
+                        <textarea   class="form-control" id="text-area" rows="3" required="required"></textarea>
                     </div>
                     <div class="col-6 " >
                         <button class="btn btn-primary text-center">Enviar</button>
@@ -117,7 +114,7 @@
                 </div>
             </div>
             </div>
-        </div>
+          </form>
 
         <footer class="container">
           <div class="row">
