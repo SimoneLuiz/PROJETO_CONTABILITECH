@@ -1,9 +1,4 @@
-let btnCep = document.querySelector("#btn-cep"); 
-let cep = document.querySelector("#cep");
-let bairro = document.querySelector("#bairro_cad");
-let rua = document.querySelector("#rua_cad");
-let estado = document.querySelector("#estado_cad");
-let municipio = document.querySelector("#municipio_cad")
+
 
 btnCep.addEventListener('click', (e)=>{
     e.preventDefault(); 

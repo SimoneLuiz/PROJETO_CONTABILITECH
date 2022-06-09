@@ -8,7 +8,6 @@ function setResultado (msg, isValid) {
     resultado.innerHTML = `<p>${msg}</p>`;
     resultado.innerHTML = '';
 
-    
     const p = criaP();
     
     if (isValid) {

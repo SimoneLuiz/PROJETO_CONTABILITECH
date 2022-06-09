@@ -8,9 +8,12 @@ form.addEventListener('submit', function (e) {
     const email = inputEmail.value;
     const senha = inputSenha.value;
 
-    if (email === emailLogin || senha === senhaLogin) {
-        const msg = `Login realizado com sucesso.`;
-        setResultado(msg, true);
-    } else {setResultado("E-mail ou senha inválida.", false);
+    if (email !== Login.email || senha !== Login.senha) {
+        setResultado("E-mail ou senha inválida.", false);
+        
+    } else {const msg = `Login realizado com sucesso.`;
+    setResultado(msg, true);
+    window.location.href = '../../index.html';
     }
 });
+

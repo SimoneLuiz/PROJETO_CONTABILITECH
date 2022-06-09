@@ -1,2 +1,9 @@
-const emailLogin = 'ms.joao.felipe@gmail.com';
-const senhaLogin = 'senhaincrivel123';
+class Login{
+    constructor(email,senha){
+        this.email = email
+        this.senha= senha
+    }
+}
+
+Login.email = 'ms.joao.felipe@gmail.com'
+Login.senha = '123456'
