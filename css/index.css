@@ -1,5 +1,5 @@
 header > .navbar{
-    height: 4rem;
+    min-height: 4rem;
 }
 
 .link{

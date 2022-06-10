@@ -1,26 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "inter", sans-serif;
-  text-decoration: none;
-  list-style: none;
-}
+
 
 body {
   background-color: #23333d;
-  min-height: 100vh;
+  height: 100%;
   display: flex;
-  align-items: center;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
 }
 
+
+
 .tabela-preco {
+  width: 100%;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   width: min(1600px, 100%);
   margin: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+header > .navbar{
+    height: 4rem;
 }
 
 .card-preco {
@@ -58,10 +71,18 @@ body {
   transition: 0.2s linear;
 }
 
+
 .preco sup,
 .preco span {
   font-size: 22px;
   font-weight: 700;
+}
+
+
+ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .card-preco:hover,
@@ -75,10 +96,10 @@ body {
   text-transform: uppercase;
 }
 
-.btn {
+.bttn {
+  text-decoration: none;
   display: inline-block;
   margin-bottom: 40px;
-  margin-top: 80px;
   border: 2px solid #23333d;
   color: black;
   padding: 18px 40px;
@@ -88,10 +109,11 @@ body {
   transition: 0.3s linear;
 }
 
-.btn:hover {
+.bttn:hover {
   background-color: #23333d;
   color: #fff;
 }
+
 
 @media screen and (max-width: 1100px) {
   .card-preco {
