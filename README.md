@@ -1,4 +1,4 @@
-# projeto Contabilitech
+# Projeto Contabilitech
 
 ## **Projeto final do Módulo 2: Página de Produto ou Serviço**
 
