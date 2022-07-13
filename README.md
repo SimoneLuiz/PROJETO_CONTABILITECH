@@ -1,6 +1,6 @@
 # Projeto Contabilitech
 
-## **Projeto final do Módulo 2
+## **Projeto final do Módulo 2**
 
 ### **ContabiliTech**
 Projeto de encerramento do módulo 2
