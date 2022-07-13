@@ -1,6 +1,6 @@
 # Projeto Contabilitech
 
-## **Projeto final do Módulo 2: Página de Produto ou Serviço**
+## **Projeto final do Módulo 2: Página de Produto e Serviços**
 
 ### **ContabiliTech**
 Projeto de encerramento do módulo 2
