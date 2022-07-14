@@ -18,9 +18,9 @@ O projeto objetivou desenvolver uma página de produto ou serviço com o a fim d
 
 #### **Intregrantes do grupo:**
 
-* *[Filipe Alves](https://www.linkedin.com/in/filipeqalves)*
-* *[João Souza](https://www.linkedin.com/in/joaofmds)*
-* *[Simone Luiz](https://www.linkedin.com/in/simone-luiz-87331822a/)*
+* *[Filipe Alves]-(https://www.linkedin.com/in/filipeqalves)*
+* *[João Souza]-(https://www.linkedin.com/in/joaofmds)*
+* *[Simone Luiz]-(https://www.linkedin.com/in/simone-luiz-87331822a/)*
 
 
 Todos os direitos reservados ©
