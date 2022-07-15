@@ -1,9 +1,7 @@
 
 <h1 align="center">:file_cabinet:  Projeto Contabilitech -Projeto de Final de Módulo 2 - Time 07</h1>
 
-*O projeto objetivou desenvolver uma página de produto ou serviço com o a fim de praticar o que foi aprendido ao longo das aulas ministradas pelo facilitador Jarom Aidukaits*
-
-*O tema escolhido pelos integrantes do grupo foi uma página de contabilidade online; assim, foi-se criada a empresa ContabiliTech com vistas a solucionar os problemas financeiros e contábeis das empresas brasileiras.*
+*O projeto objetivou desenvolver uma página de produto ou serviço com o a fim de praticar o que foi aprendido ao longo das aulas ministradas pelo facilitador Jarom Aidukaits* .O tema escolhido pelos integrantes do grupo foi uma página de contabilidade online; assim, foi-se criada a empresa ContabiliTech com vistas a solucionar os problemas financeiros e contábeis das empresas brasileiras.*
 
 #### **Linguagens, Frameworks e tecnologias utilizadas:**
 * *HTML5*
